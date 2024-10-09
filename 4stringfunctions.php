@@ -32,11 +32,11 @@ if(isset($_POST['disp']))
 }
 ?>
 <html>
-<body bgcolor="cyan">
+<body>
+<style>body{background-color:lightgrey;}</style>
 <form action="" method="post">
-<table align="center" border="3" width="20%"><br><br>
-<tr bgcolor="forestgreen"><td align="center" colspan="2">
-<font color="white" face="arial black" size="5">STRING HANDLING</font></td></tr>
+<table align="center"><style>table{background-color:white;}</style>
+<center><b><h1>STRING HANDLING</h1></b></center>
 <tr><td><input type="button" value="Enter String"></td>
 <td><input type="text" name="s"></td></tr>
 <tr><td><input type="button" value="Select Your Choice"></td>
