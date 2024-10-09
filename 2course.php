@@ -6,7 +6,7 @@
   <style>body{
   background-color:lightgrey;
   padding:20px;
-  font-family:arial-black;
+  font-family:arial black;
 }
   input[type="text"],input[type="number"],select{
     padding:5px;
