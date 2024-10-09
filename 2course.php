@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Student Course Selection</title>
   <style>body{
-  background-color:pink;
+  background-color:lightgrey;
   padding:10px;
   font-family:arial-black;
 }
@@ -12,7 +12,7 @@
     padding:5px;
   }
     input[type="submit"]{
-      background-color:lightgrey;
+      background-color:forestgreen;
       color:white;
       cursor:pointer;
       padding:10px 10px;
