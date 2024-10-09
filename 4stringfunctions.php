@@ -20,8 +20,8 @@ if(isset($_POST['disp']))
         case 'STRING REPLACE':
             $res=str_replace($s,"hello","world");
             break;
-        case 'STRING SPLIT':
-            $res=str_split($s,1);
+        case 'STRING UPPERCASE':
+            $res=strtoupper($s);
             break;
             
         case 'PASSWORD GENERATOR':
@@ -46,7 +46,7 @@ if(isset($_POST['disp']))
 <option>STRING REVERSE</option>
 <option>POSITION OF A CHARACTER</option>
 <option>STRING REPLACE</option>
-<option>STRING SPLIT</option>
+<option>STRING UPPRCASE</option>
 <option>PASSWORD GENERATOR</option>
 </center></select></td></tr>
 <tr><td><input type="submit" value=" RESULT " name="disp"></td>
