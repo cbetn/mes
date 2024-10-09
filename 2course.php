@@ -3,9 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Student Course Selection</title>
+  <style>body{
+  background-color:pink;
+  padding:10px;
+  font-family:arial-black;
+}
+  input[type="text"],input[type="number"],select{
+    padding:5px;
+  }
+    input[type="submit"]{
+      background-color:lightgrey;
+      color:white;
+      cursor:pointer;
+      padding:10px 10px;
+      border:none;
+      border-radius:4px;
+    }
+  </style>
 </head>
 <body>
-<hi><b><center>Course Registration</center></b></h1>
+<h1><b><center>Course Registration</center></b></h1>
 <form action="course1.php" method="get">
 <table align="center">
 <tr><th>Name</th>
