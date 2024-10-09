@@ -5,7 +5,7 @@
 <title>Student Course Selection</title>
   <style>body{
   background-color:lightgrey;
-  padding:10px;
+  padding:20px;
   font-family:arial-black;
 }
   input[type="text"],input[type="number"],select{
