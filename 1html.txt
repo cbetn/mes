@@ -1,0 +1,29 @@
+<DOCTYPE html> 
+<html> 
+<head> 
+<title>MP ACADEMY</title> 
+</head> 
+<body> 
+<style> 
+body{background-color:lavender;} 
+</style> 
+<center><h1 style="color:blue;">MASTERS PROFFESIONAL ACADEMY</h1> 
+<H2>Hard Work/Smart Work/Passion</H2> 
+<br> 
+<hr>
+<p>Lorem 50</p> 
+<img src="url" alt=Academy> 
+<hr> 
+<ol> 
+<li><h3>Mark notes</h3></li> 
+<li><h3>Make presentation</h3></li> 
+<li><h3>Make Public Speech</h3></li> 
+</ol> 
+<hr> 
+<a href="https://mectcbe.com/">About</a><br> 
+<a href="https://www.justdial.com/Coimbatore/Masters-Professional-Academy-Near-Mahendra Car-Showroom-Avinashi-Road/0422PX422 -X422-220524004127-E2M5_BZDET">Location</a> 
+<br> 
+<a href="#">to top</a>/
+</center> 
+</body> 
+</html>

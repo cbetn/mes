@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "ISO-8859-1">
+<title>Image Upload</title>
+</head>
+<body>
+<h2>Upload an Image</h2>
+<form action = "upload.php" method = "post" enctype = "multipart/form-data">
+<input type = "file" name = "image" id = "image">
+<input type = "Submit" name = "Upload Image" id = "Submit">
+</form>
+</body>
+</html>
+
+<?php
+$image_file = $_FILES["image"];
+if (!isset($image_file)) {
+die('No file uploaded.');
+}
+
+$upload_path = "D:/PHP01/" . basename($image_file["name"]);
+
+if (move_uploaded_file($image_file["tmp_name"], $upload_path)) {
+echo 'File uploaded successfully: ' . htmlspecialchars($image_file["name"]);
+} else {
+echo 'File upload failed.';
+}
+?>
